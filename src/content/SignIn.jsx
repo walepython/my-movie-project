@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function SignIn() {
   const [email, setEmail] = useState('');
@@ -55,9 +56,9 @@ export default function SignIn() {
         </form>
         <p className="mt-4 text-sm text-center text-gray-400">
           Don’t have an account?{' '}
-          <a href="/SignUp" className="text-pink-400 hover:underline">
+          <Link to="/SignUp" className="text-pink-400 hover:underline">
             Get Started
-          </a>
+          </Link>
         </p>
       </div>
     </div>
