@@ -74,7 +74,7 @@ export default function AfricaSection1() {
         {/* --- CORRECTED .map() FUNCTION --- */}
         {Aficanmovies.map((movie, index) => (
           // Use the href for the key for stability, or index as a fallback
-          <div key={movie.href} className="group relative overflow-hidden rounded-lg shadow-lg">
+          <div key={movie.href} className="sticky top-8 group relative overflow-hidden rounded-lg shadow-lg">
             <a href={movie.href} target="_blank" rel="noopener noreferrer">
               {/* Image with hover effect */}
               <img

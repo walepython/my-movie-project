@@ -32,9 +32,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-white">
-              Sweet<span className="text-pink-500">Life</span>™
+          <div className="flex-shrink-0 reletive z-20">
+          <img className='absolute right-130 w-10 z-[-20] rounded-xl' src='./sweetlogo.jpg' />
+            <Link to="/" className="text-2xl font-bold text-white p-5 items-center">
+           
+              <span className='text-4xl items-center'>S</span>weet<span className="text-pink-500">Life</span>™
             </Link>
           </div>
 

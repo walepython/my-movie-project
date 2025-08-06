@@ -6,6 +6,7 @@ import AfricaSection1 from './component/AfricaSection1';
 import AmericaSection from './component/AmericaSection';
 import SignIn from './content/SignIn';
 import SignUp from './content/SignUp';
+// import Navbar2 from './component/Navbar2'
 
 function Layout() {
   const location = useLocation();
@@ -37,6 +38,7 @@ function Layout() {
 export default function App() {
   return (
     <BrowserRouter>
+    {/* <Navbar2/> */}
       <Layout />
     </BrowserRouter>
   );
